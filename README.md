@@ -1,6 +1,6 @@
 # Selenide Cheat Sheets
 
-1. `$x(format("//span[contains(text(), '%s')]",  comment))` -> `$$("span").find(exactText(comment));`
+1. `$x(format("//span[contains(text(), '%s')]",  comment))` -> `$$("span").find(exactText(comment));` or `$$("span").find(matchText(comment));`
 
 2. `ancestor::tr` -> `closest("tr")`
 
