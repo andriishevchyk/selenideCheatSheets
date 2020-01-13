@@ -18,18 +18,17 @@
 
 9. `$(By.className("loader-box"));` -> `$(".loader-box");`
 
-#Asserts
+# Asserts
+---
 
  `assertThat(employeeAttendance.getSuperiorMessage().getText())
                    .as("Superior comment when rejecting time off request")
                    .isEqualTo("Need more information");`
-             
+            
    ->          
                
-  `public EmployeeAttendance name(){
-   superiorMessage.shouldHave(exactText("Need more information")) ;
-   return this;
-   } `
+`superiorMessage.shouldHave(exactText("Need more information"));`
+
    ---
    
    
