@@ -10,7 +10,7 @@
 
 5. `$x("//textarea[@id='sl-comment']")` -> `$("#sl-comment")`
 
-6. `$("button[style="display: block;"])` -> `$$("button").find(attribute("display", "block"))`
+6. `$("button[style="display: block;"])` ->`$$("button").find(attribute("style", "display: block;"))`
 
 7. `$("textarea[class*=form-control]")` -> `$("textarea.form-control")`
 
